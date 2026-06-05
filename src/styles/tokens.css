@@ -1,0 +1,29 @@
+:root {
+  --device-red: #c0392b;
+  --device-red-dark: #922b21;
+  --device-red-deeper: #000;
+  --screen-bg: #0a1a0a;
+  --screen-text: #3dff3d;
+  --screen-muted: #1c8a1c;
+  --screen-dim: #0d400d;
+  --type-fire: #c0392b;
+  --type-water: #2980b9;
+  --type-grass: #27ae60;
+  --type-electric: #f39c12;
+  --type-ice: #85c1e9;
+  --type-fighting: #922b21;
+  --type-poison: #8e44ad;
+  --type-ground: #b7950b;
+  --type-flying: #5dade2;
+  --type-psychic: #e91e8c;
+  --type-bug: #7dbb00;
+  --type-rock: #7f8c8d;
+  --type-ghost: #6c3483;
+  --type-dragon: #1a5276;
+  --type-dark: #1c2833;
+  --type-steel: #717d7e;
+  --type-normal: #2c3e50;
+  --type-fairy: #f48fb1;
+  --font-pixel: "Press Start 2P", monospace;
+  --font-lcd: "VT323", monospace;
+}

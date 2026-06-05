@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap");
+@import "./tokens.css";
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #1a1a2e;
+  min-height: 100dvh;
+  display: flex;
+  align-items: flex-start;        /* era center → agora flex-start evita o pulo */
+  justify-content: center;
+  padding: 24px 16px;
+  font-family: var(--font-pixel);
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: var(--screen-muted); border-radius: 2px; }
+:focus-visible { outline: 2px solid var(--screen-text); outline-offset: 2px; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
