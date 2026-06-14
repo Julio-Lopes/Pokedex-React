@@ -175,3 +175,8 @@ A lista da PokéAPI (`/pokemon?limit=1025`) não inclui o tipo de cada Pokémon.
 - [React Query Docs](https://tanstack.com/query/latest)
 - [Zustand Docs](https://zustand-demo.pmnd.rs/)
 - [Vite Docs](https://vitejs.dev/)
+
+## Screenshots
+ 
+### Pokedex
+![Pokedex](assets/pokedex.png)
